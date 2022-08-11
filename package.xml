@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>pluginlib_tutorials_</name>
+  <version>0.0.0</version>
+  <description>The pluginlib_tutorials_ package</description>
+
+  <maintainer email="user@todo.todo">user</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>pluginlib</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_export_depend>pluginlib</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <exec_depend>pluginlib</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+
+  <export>
+    <pluginlib_tutorials_ plugin="${prefix}/polygon_plugins.xml" />
+  </export>
+</package>
